@@ -1,0 +1,1855 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/01717_hCuReFsWzWl_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00d0d_e1T5yNs7a4A_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00202_gp95ErTGTUG_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00T0T_dG7cg1TYLSB_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00303_e90DwX3t3mM_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00D0D_37SsC40HEBH_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00E0E_dGN0oohhZwB_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00F0F_9Lkj3TZbecq_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00909_lnMVgZJwHDP_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00707_ig8lz1jl9cT_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00m0m_lqd6PjVWjWH_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00q0q_hQwulufbLOQ_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/01717_7HQ7MWCFkhh_0kE0kE_600x450.jpg"
+                    ],
+                    "name": "54cm Litespeed Firenze Titanium Road Bike 27s Shimano Ultegra",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "995.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "0"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00o0o_f3zownomOYy_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00U0U_1xiHQhUdUi5_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01414_GqE2ot4y0Q_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00A0A_30ycpc0Zi1w_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00G0G_fvj3Z1lZqGa_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00101_cp2bMHsaJQi_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01717_3QomE5iDQVr_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01313_gqpNET7FBgO_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_f8YEBqxqtuf_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00I0I_kd8z1EafUii_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "54cm Cannondale SuperSix carbon road bike, Ultegra 20-speed",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "995.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "1"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00A0A_h6e7Hl9GBfA_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00J0J_79QxceNbiyN_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00909_iFP6rF7cyuB_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00g0g_bkvAvM3vD2C_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00A0A_3phakeXnCwX_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00000_jgn5VeYJ2LL_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00U0U_1xUqBKfBe2g_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00808_9YRfNQbN87V_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00C0C_bzeTCvp4kE6_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00D0D_aZl6udy0H6X_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00j0j_6vvOZAUjzLj_0kE0kE_600x450.jpg"
+                    ],
+                    "name": "size M 54cm Felt Versa Speed 24sp hybrid flat bar road bike",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "355.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "2"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00404_gh0pJ1t5VsE_0ww0oo_600x450.jpg",
+                        "https://images.craigslist.org/01414_9yniFQFbKCT_0oo0ww_600x450.jpg",
+                        "https://images.craigslist.org/00Z0Z_gcPUs64v5bP_0oo0ww_600x450.jpg",
+                        "https://images.craigslist.org/00E0E_hpud5hqIXHn_0oo0ww_600x450.jpg",
+                        "https://images.craigslist.org/00I0I_c1ub2ev8iQJ_0oo0ww_600x450.jpg",
+                        "https://images.craigslist.org/00Z0Z_fxryPc5w2RB_0oo0ww_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_3LvM70uLPcV_0ww0oo_600x450.jpg"
+                    ],
+                    "name": "Rare 54cm Da Vinci Road Bike for 5.5\"-5.9\" tall person ready to go",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7856000070447,
+                                "longitude": -122.435799287915
+                            }
+                        },
+                        "price": "500.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "3"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00404_896PEHkWsn2_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00a0a_4yGoaQ5fDyu_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01010_5hgoKSZde4R_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00u0u_2jQa1bS2tyG_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00j0j_8CheK7LakeG_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00l0l_5ZmChXMCwOZ_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00T0T_ds4NvbVQeYA_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00I0I_hneB0r2hTDy_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00f0f_fNNKABKmcvn_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00b0b_cwkkuInSZVW_0t20CI_600x450.jpg"
+                    ],
+                    "name": "Cannondale CAAD 8 Aluminum Frame Dented Seatstay 54cm Made in USA",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "Kentfield",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.9686290828582,
+                                "longitude": -122.532787864596
+                            }
+                        },
+                        "price": "80.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "4"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00I0I_99mi7MiuwMN_0CI0nd_600x450.jpg",
+                        "https://images.craigslist.org/00E0E_ip6pY3szyj2_0BE0CI_600x450.jpg",
+                        "https://images.craigslist.org/00a0a_5LTCdbnQNv6_0lY0CI_600x450.jpg",
+                        "https://images.craigslist.org/00q0q_cxuKDEEBIca_0CI0lw_600x450.jpg",
+                        "https://images.craigslist.org/00y0y_bcFs0ZZ2pSu_0CI0nK_600x450.jpg",
+                        "https://images.craigslist.org/00000_k9aPwnI8eTC_0CI0oz_600x450.jpg"
+                    ],
+                    "name": "BMC Team Machine SLR01 – 53/54",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "Berkeley",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8629991567113,
+                                "longitude": -122.274893258486
+                            }
+                        },
+                        "price": "1250.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "5"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00909_dxFzEFasrM4_0CI0mh_600x450.jpg",
+                        "https://images.craigslist.org/00l0l_gOAlOT2bbvw_0CI0t1_600x450.jpg",
+                        "https://images.craigslist.org/00Q0Q_5PjGaR3Cz5I_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00d0d_7IEfgQ5iTdY_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00L0L_9hm56W7argc_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00404_4DYAJNh0r6y_0CI0t1_600x450.jpg",
+                        "https://images.craigslist.org/00L0L_de217jSmcnC_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00w0w_g32eJzWtkwg_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00V0V_9Ig9XiFoDS0_0CI0qH_600x450.jpg",
+                        "https://images.craigslist.org/00o0o_391H0AJFyDo_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00d0d_6qeOyVUZy97_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00c0c_i90Am9nD3CP_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00t0t_Jj611pbpRR_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00L0L_apbqHYbmlLq_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00s0s_deNmP21bZd9_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00606_kUbmMRyiin4_0CI0t1_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_7xYZbQXYjzq_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00U0U_8ZeBbWOODyV_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00707_1jMlHnGLM6I_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00r0r_4WXt4vPY69w_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_1MGjmunb7bF_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00j0j_eMwEVLaLDkQ_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00t0t_c3rxrKNxtQb_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00l0l_d5oBDwP0eQO_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "56cm KESTREL, Carbon, USA, Ultegra, Fit 5’9-6’0",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7469001457324,
+                                "longitude": -122.412604810454
+                            }
+                        },
+                        "price": "695.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "6"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00U0U_1Uo5MY5VCsX_09G07g_600x450.jpg",
+                        "https://images.craigslist.org/00X0X_fm7Rgmt22pu_09G07g_600x450.jpg",
+                        "https://images.craigslist.org/01717_aSFrtZPIg28_05r07g_600x450.jpg",
+                        "https://images.craigslist.org/01515_2kqKZmxL7Ti_09G07g_600x450.jpg",
+                        "https://images.craigslist.org/00J0J_itDNBd9H5RK_09G07g_600x450.jpg",
+                        "https://images.craigslist.org/00p0p_iB5HNRnRY4A_09G07g_600x450.jpg",
+                        "https://images.craigslist.org/00y0y_7FoTkNGovu0_09G07g_600x450.jpg",
+                        "https://images.craigslist.org/00t0t_4uckpbQhV33_09G07g_600x450.jpg",
+                        "https://images.craigslist.org/00606_99e7CeM97G7_05r07g_600x450.jpg"
+                    ],
+                    "name": "Japanese, 1970's steel \"Allen Iverson\" single speed Road Bike. 54cm",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "Richmond",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.9324255986592,
+                                "longitude": -122.346678567676
+                            }
+                        },
+                        "price": "120.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "7"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00303_AswqjxeOaG_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00S0S_laDX8hsD3xz_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00a0a_eAJepmJ98Kl_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00505_ggln7dQ9q7D_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00g0g_66NFADG9Br0_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00U0U_fWNZF9WaBal_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00F0F_fwYzw8G9YxJ_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00m0m_30lj5ORdzP6_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00R0R_fjUBcOeMrHr_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01616_8THEOco9xYz_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00A0A_fTG2sBFGL1J_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01515_cBpJgp1D9Iz_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01616_bLawfRjRcm5_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "53cm ZEUS, Classic 80s, Lugs, Campy (~5’7-5’9)",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7469001457324,
+                                "longitude": -122.412193999714
+                            }
+                        },
+                        "price": "295.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "8"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/01010_aqQvPBG738V_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00A0A_8ZWextYdmkY_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00n0n_btd6njSZY1V_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00j0j_51mSTZDTW2M_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00r0r_cVGp4Q4Papj_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00V0V_SIMR4VPMKI_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00f0f_4fsyYFENZ1z_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00Y0Y_h5QhgclxCcz_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00404_758sqI5kpoh_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00H0H_kAIAIqLoIgO_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01414_esDVbYr0MEc_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00y0y_ke04HP6yY3H_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01313_a3RRDuleFph_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00000_iHshzOk1kq9_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00u0u_fQjAchzo5a6_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00Q0Q_2zu8hnaZI2F_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00n0n_kW0416F35TW_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00p0p_il9gqo4rXxk_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00I0I_k0j2Ji3pXT3_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00909_3ETqUg2D7CB_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00E0E_8B8di4EfkLQ_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00m0m_7Db6BxY3Gmt_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00J0J_d6ovmvHaCBB_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "TREK (Hybrid/Gravel) 27spd, DISC, Shox, Fit 5’8-6’0",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7469001457324,
+                                "longitude": -122.412193999714
+                            }
+                        },
+                        "price": "395.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "9"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00d0d_dC8zdY6Gvzv_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00p0p_hBOL8v1AIyx_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00u0u_gv7ew0nEBQP_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00202_cfdvXpCa4ry_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00C0C_4dxdBj3j7t5_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00d0d_1CbLljqQOfG_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00707_jvRzMwbQPbz_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01010_6MSbMAiKSNe_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00000_koeTj37fOc5_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00Z0Z_1YAbvmykqVa_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00r0r_4Evly1whOsM_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00000_FKwoEOAJRS_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00D0D_iF1EombbO96_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00f0f_cT1UpbUCpqi_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "54cm (M) Trek 1000 SL, 27 speeds,+ carbon fork& carbon post, as new",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7457187067589,
+                                "longitude": -122.384080679582
+                            }
+                        },
+                        "price": "380.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "10"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00f0f_3lACRCHffEp_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00s0s_3WUyu15ZUvz_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00n0n_eJnrO9zWEti_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01111_7zDYxRrpva1_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00j0j_7k4C294X7tz_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01010_fyIcJ7HPU2M_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00q0q_4jCG7xyf7tm_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00o0o_lq4wOAE9cwO_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00C0C_3bIp2OK3l8I_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00000_3Ac9QcTbcOl_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00O0O_bZqVy3JH55j_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01717_9IKeNM9n8Sh_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00000_aEIwwkeoF25_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_jeuZuVHicrC_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00J0J_8TiroCmntY5_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00Q0Q_4gNmHuvBJPZ_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00b0b_4T1g2alFZun_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00101_4WhnhcShvFK_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00V0V_5n4suYh9nTF_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00d0d_jq2FaUznpMp_0t20CI_600x450.jpg"
+                    ],
+                    "name": "54cm Tommaso Super Leggere full carbon DuraAce build",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7457187067589,
+                                "longitude": -122.384080679582
+                            }
+                        },
+                        "price": "780.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "11"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00N0N_8erG6ZIVJOX_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00d0d_lj59FetqL8H_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00404_e6H5t7Zu36_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00G0G_dS627Y3CHO8_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00r0r_hDL5hWhbCsH_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00505_2DP1DFpqT8o_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00A0A_3MLY1xmG8iP_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00f0f_9eaw7jNVaDH_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00b0b_iXpjMSoXNUG_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00909_iFMbXyu1Yfb_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00d0d_g1ZNK72OWu4_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00C0C_jCtu0q6rIHc_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00Q0Q_ba2OuXkOURu_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00R0R_agc3Yo9DsIq_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00H0H_9x4PaoVoD01_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00101_8iYWXufDc1l_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00F0F_f00Jv7FXof0_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "(M) 54cm Novara Carema carbon + disc+105 build as new!",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7457187067589,
+                                "longitude": -122.384080679582
+                            }
+                        },
+                        "price": "520.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "12"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00e0e_98zAOhC0yu0_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00l0l_91LIc5g1sa8_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00707_hF1WYXMgN45_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00w0w_7HOOLTltXkU_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00i0i_cv1ZcEKdvdO_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00u0u_95beSGvj7JG_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00T0T_hQQD5A04s7d_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00303_cJlkuCjjNL6_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/01111_2bhffIoNwa_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00Z0Z_bXp04Ua78Kh_0t20t2_600x450.jpg"
+                    ],
+                    "name": "54cm Trek Silque SL carbon fiber road bike Shimano Ultegra Di2 11speed",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "1395.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "13"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00y0y_8pyxToqSY3X_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00K0K_iIIBcKjm5Lb_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "2012 Breezer Venturi Road Race-Dura Ace size 56, ~400 miles-MINT!",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Rafael",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.9691000541658,
+                                "longitude": -122.510494076789
+                            }
+                        },
+                        "price": "1500.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "14"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00u0u_heMqGCXJ8TR_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/01515_5lSYCmfHxBi_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00h0h_4Wkud2rw3lO_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00V0V_32EWmgYkJD6_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00Q0Q_jQMTs6nIcUL_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00f0f_kiAI4Kd2Vx_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "Independent Fabrication Crown Jewel (54cm)",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7353985909536,
+                                "longitude": -122.457095556201
+                            }
+                        },
+                        "price": "1500.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "15"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/01717_8j36PUiSal3_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01414_bmRnRkYnxB9_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00D0D_j2GbzsqdYnE_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00U0U_dU2q8l0fFnE_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00Z0Z_2FJBM0qqMBJ_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/01010_2OGWcNqYE7l_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "2014 Ridley XFire 54cm (carbon)",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7353985909536,
+                                "longitude": -122.457095556201
+                            }
+                        },
+                        "price": "1250.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "16"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00K0K_c5YLDldCom0_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00S0S_kdeWGBeL25v_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00909_3jfzMuaPCpA_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00808_7LrIHTmyuOA_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00P0P_8Fqq0xTk5uP_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00g0g_bwGuZJL19dt_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00o0o_h9Bnk0lCd7j_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00s0s_llzur58dJGd_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00F0F_lhkg2vBVGwt_0t20t2_600x450.jpg"
+                    ],
+                    "name": "54cm Fuji Supreme carbon fiber road bike 2x11 speed Dura Ace",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "1695.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "17"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00N0N_xk5u5AHhey_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00V0V_f6e2qnEVDJw_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00n0n_UUjaQ2Cbk7_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00j0j_gSH2nNYA3Ut_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00g0g_kexOwBYghqx_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00b0b_8Y6lujbNPd_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00S0S_43CRhAKDeXG_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00k0k_d5OAbxpq09W_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00e0e_iJlgPh9I6Wn_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01717_fMOmhB8S54c_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00O0O_ecLNVgLJsy3_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "Sycip Steel Road Bike 54cm, Dura Ace",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "Oakland",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8470995778973,
+                                "longitude": -122.222300889516
+                            }
+                        },
+                        "price": "1200.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "18"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00w0w_edlZRM5Ynko_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00a0a_sgV7tN9OtQ_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00i0i_fIHD8FTjuuy_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00p0p_1dpSJx2xjlR_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00303_iuxZLEQSF7Q_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00K0K_kPNDBrRoPaU_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00X0X_2h56YddrMKI_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00J0J_fbmeEGZ9YH3_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00r0r_brpyqpke5wk_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00s0s_fLZglFHkmFM_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00K0K_fXnuy7TwgKq_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00y0y_2MersJOZOZj_0ei0ei_600x450.jpg",
+                        "https://images.craigslist.org/00O0O_aPeo7K7gKgF_0ei0ei_600x450.jpg"
+                    ],
+                    "name": "54cm Trek Madone 5.2 H2 KVF Carbon Road Bike - Shimano Ultegra 11sp",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "1475.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "19"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00L0L_df5f4TPvfrX_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00505_38ug2yulg2U_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00u0u_luxM9vmRiKz_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00O0O_fczOiTZ67TH_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00V0V_dnwg4TYJee5_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00p0p_p9gdhwaNSP_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00T0T_lNGCn4wE6XI_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00m0m_2w3DWuf83S9_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00L0L_fzgbMAikM4q_0kE0kE_600x450.jpg"
+                    ],
+                    "name": "53cm Taylor steel road bike 27sp Shimano -",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "785.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "20"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00D0D_UxSwB6SJ0U_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00y0y_iYHKT3b8d4K_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00h0h_6qGBKFYXTJX_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00B0B_6OtvbL5W1mN_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00505_6YycbxaobAd_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00X0X_gzuxYLueWOh_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00D0D_eDAPgGJLP_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00K0K_b6rnL6qud1k_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00808_8aIfzsB8Z8h_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00Y0Y_cH0JiiyjnTa_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00K0K_fx5PvvZk2Wn_0CG0t2_600x450.jpg",
+                        "https://images.craigslist.org/00K0K_5VlTvb2eul7_0CG0t2_600x450.jpg"
+                    ],
+                    "name": "54cm Schwinn Prelude lugged steel road bike, Columbus frame tuned up",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "345.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "21"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00P0P_cY0Q2WUZ47a_0CI0rf_600x450.jpg",
+                        "https://images.craigslist.org/00V0V_PNfExtzP8_0CI0p8_600x450.jpg",
+                        "https://images.craigslist.org/00I0I_if1fZxuAmul_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00R0R_tdx5yjXPvO_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00o0o_5Cye4NZwJgc_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00101_677jhUo3M5V_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00E0E_dyEXnDAjAbn_0t20CI_600x450.jpg"
+                    ],
+                    "name": "Specialized Ruby/Roubaix Sport",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7529007327205,
+                                "longitude": -122.504306132601
+                            }
+                        },
+                        "price": "1600.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "22"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/01313_gjeEmdc0enG_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00t0t_kZ1kTHUMz7E_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00f0f_kU3ZxLQGQMk_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/01414_9woege9o8gC_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00k0k_b0VfxtMnDDU_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00303_eI5Lnd9nK42_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/01717_8k2UO5llQ0s_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00x0x_9MgLvdw4QIs_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00L0L_BwhGqfgpMj_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00U0U_lq0O5xFhWSN_0kE0kE_600x450.jpg"
+                    ],
+                    "name": "54cm Trek Silque SL carbon fiber road bike Shimano Ultegra Di2 11speed",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "1395.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "23"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00J0J_lhTcfidw3w8_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/01212_5TR03UIWbUe_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00d0d_1p8fg70bGJY_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_aRyuDm7vxel_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00Z0Z_i9pTZiEBd8v_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/01414_gEvSOqdSanf_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00T0T_6FIiDh7hSSc_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00000_lUO02mxqEcv_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00P0P_cGZSOClxTVP_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00Z0Z_aWIlb8an9zr_0t20CI_600x450.jpg"
+                    ],
+                    "name": "Seven 622SL 52/54cm",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "Oakland",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7877995920201,
+                                "longitude": -122.188396111991
+                            }
+                        },
+                        "price": "4950.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "24"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00s0s_cOqboDUauu9_0CI0hS_600x450.jpg",
+                        "https://images.craigslist.org/00000_ho2vD88aXt1_0CI0hS_600x450.jpg",
+                        "https://images.craigslist.org/00q0q_lcd96faX1ac_0CI0hS_600x450.jpg",
+                        "https://images.craigslist.org/00U0U_lFf40VgtYRD_0CI0hS_600x450.jpg",
+                        "https://images.craigslist.org/00L0L_lk6zz94Nbel_0CI0hS_600x450.jpg",
+                        "https://images.craigslist.org/00k0k_bmKwbj3VBuP_0hS0CI_600x450.jpg",
+                        "https://images.craigslist.org/00v0v_ezdu0Cqo2hp_0hT0CI_600x450.jpg",
+                        "https://images.craigslist.org/00i0i_cHswTzLt5P6_0hS0CI_600x450.jpg",
+                        "https://images.craigslist.org/00606_gs66IkCJW1Q_0hS0CI_600x450.jpg",
+                        "https://images.craigslist.org/00j0j_8Y2a89BBYq3_0vI0fY_600x450.jpg",
+                        "https://images.craigslist.org/01010_lJa8LqfwNqE_0CI0hT_600x450.jpg"
+                    ],
+                    "name": "Ridley Kanzo Fast Small-SRAM RED/EAGLE MULLET",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "Oakland",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.812600070181,
+                                "longitude": -122.244294447438
+                            }
+                        },
+                        "price": "2300.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "25"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00N0N_d8ukl8Z7T7a_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00707_95PNXwjVEsk_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00O0O_dlao6WpKfJM_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00M0M_21UPuOLnZgG_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00O0O_gLwBZKU2MoJ_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00W0W_3Ly36NRhyGW_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00v0v_2IDDTkBhBUN_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00E0E_3qKsD6wDx4n_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00L0L_j79g0D5pzuu_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00S0S_e7CdkRN769t_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00707_cYoO7RSGQUp_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00t0t_ahzpU5Wg2PM_0t20t2_600x450.jpg",
+                        "https://images.craigslist.org/00101_bY0kCwTfIat_0t20t2_600x450.jpg"
+                    ],
+                    "name": "Size M Giant TCR Advanced SL carbon fiber road bike 2x10sp Dura Ace",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "1995.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "26"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00b0b_9NCF0gzBXvf_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00303_5AqrmKjZywV_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00e0e_k9emvYVsYUd_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00Y0Y_df3WmaxO0O6_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00n0n_jY25cgDdTTU_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00I0I_geon8iZTpuc_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/01717_eYaAqsUglkZ_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00t0t_huX7kTBsMcV_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00v0v_kq5UF47AX4_0t20CI_600x450.jpg"
+                    ],
+                    "name": "Blue Triad SP Carbon Bike - 54cm",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "Corte Madera",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.9194005491032,
+                                "longitude": -122.512802523745
+                            }
+                        },
+                        "price": "950.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "27"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00a0a_3YtoAUEdvxZ_0kE0fu_600x450.jpg",
+                        "https://images.craigslist.org/00j0j_9kv8gyrakf1_0kE0fu_600x450.jpg",
+                        "https://images.craigslist.org/00V0V_3FhkzB5YXXf_0kE0fu_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_4IXHu1LYUVS_0kE0fu_600x450.jpg",
+                        "https://images.craigslist.org/01717_1zzXEjhqTXt_0kE0fu_600x450.jpg",
+                        "https://images.craigslist.org/00g0g_8ftmBDKBXUh_0kE0fu_600x450.jpg",
+                        "https://images.craigslist.org/00v0v_fcg9ubFPU5E_0kE0fu_600x450.jpg",
+                        "https://images.craigslist.org/00w0w_dW0pARpQ5ca_0kE0fu_600x450.jpg",
+                        "https://images.craigslist.org/00N0N_1KzGHYN5YjN_0kE0fu_600x450.jpg"
+                    ],
+                    "name": "54cm Klein Reve V aluminum road bike 3x10 speed Ultegra/105",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "785.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "28"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00D0D_gOEa0234p9J_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_6yUgC1A23eV_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00202_2mzdb9yXwQ2_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00303_3m8u8YhzoRV_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "2024 Scott Contessa Speedster 25",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7771104913947,
+                                "longitude": -122.407863584699
+                            }
+                        },
+                        "price": "999.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "29"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00c0c_jV6LPQCAlpW_0MM132_600x450.jpg",
+                        "https://images.craigslist.org/00P0P_f3wVypf6hxw_0MM132_600x450.jpg",
+                        "https://images.craigslist.org/00C0C_dffBV2XeNd1_0MM132_600x450.jpg",
+                        "https://images.craigslist.org/00x0x_Ve98VX8Zrl_0MM132_600x450.jpg",
+                        "https://images.craigslist.org/00A0A_c8XtxC06O3j_0MM132_600x450.jpg",
+                        "https://images.craigslist.org/00W0W_kzv1YFJPFLO_1320MM_600x450.jpg",
+                        "https://images.craigslist.org/00w0w_6RkRAeHpVhn_0MM132_600x450.jpg"
+                    ],
+                    "name": "Open Up - Custom AXS Build w/ power meter",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8053739264692,
+                                "longitude": -122.435512236059
+                            }
+                        },
+                        "price": "3800.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "30"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00V0V_3yhNhszCLkD_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00G0G_8H7nqxvYcxi_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01212_4bFcM4AdMio_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00N0N_7q9IV5I1BLe_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00404_fxEgpuKfYgS_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01010_exjZXUGf2r6_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00101_8rkw3JLE3Fr_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "Schwinn Fastback Road Bike",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "Alameda",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7723870273319,
+                                "longitude": -122.288581220211
+                            }
+                        },
+                        "price": "280.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "31"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00Z0Z_iM2x2MuJ2UO_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00707_a5PJwQu3keS_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00f0f_fggCQa1LDgP_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00i0i_6VO0t33t3Jj_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "2024 BMC Roadmachine 01 Four",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.777076113927,
+                                "longitude": -122.407836082725
+                            }
+                        },
+                        "price": "5499.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "32"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00v0v_gaMmgCkXnTf_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00k0k_2tKGlYOEgvB_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00H0H_cB1VtAHzzwE_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/01010_bYivotXRak_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00B0B_4nJU3oAgXOi_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00g0g_6tnklB4bAUs_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/01414_dy2fQaTSq8a_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00B0B_iMiqGhVZhc6_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00F0F_22R2Z9TAn1r_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00k0k_j9FV8M2odHW_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00101_5KXsF6kmHIl_0kE0kE_600x450.jpg",
+                        "https://images.craigslist.org/00h0h_bLz63UtT4fv_0kE0kE_600x450.jpg"
+                    ],
+                    "name": "54cm  Orbea Terra TDR Pro cyclocross bike  Dura Ace Mavic Ksyrium",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.8231012406496,
+                                "longitude": -122.369300087342
+                            }
+                        },
+                        "price": "1295.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "33"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00d0d_llglqsiXEoe_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00606_4R06NNN85K0_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00G0G_aBzpBTzI776_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00r0r_ge8ahCD8RS7_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00404_g447y83Edw1_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00H0H_f0QrslRl7Mk_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00s0s_7gOeuETEWOv_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_cT9UKAmhW7C_0t20CI_600x450.jpg"
+                    ],
+                    "name": "Peugeot Record Du Monde Bicycle",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7864370983833,
+                                "longitude": -122.470045548286
+                            }
+                        },
+                        "price": "375.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "34"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00D0D_gOEa0234p9J_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_6yUgC1A23eV_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00202_2mzdb9yXwQ2_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00303_3m8u8YhzoRV_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "2024 Scott Contessa Speedster 25",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7771104913947,
+                                "longitude": -122.407863584699
+                            }
+                        },
+                        "price": "999.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "35"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00B0B_52Z9vitdaqR_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00x0x_aSOTBZrWmsm_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00L0L_kvyeTMxZqGP_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00O0O_51csDYXHg8f_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00000_li0Drkz2IhM_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00E0E_5eu4FzkDKcR_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00W0W_dwmV6kJlK4k_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00w0w_ipBYldkgU56_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "OBO 2019 Scott Addict RC Pro Campagnolo Super Record Carbon Wheels",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.790685580434,
+                                "longitude": -122.481531633204
+                            }
+                        },
+                        "price": "3550.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "36"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00O0O_6Bb6ODKm5iu_0uY0ne_600x450.jpg",
+                        "https://images.craigslist.org/00v0v_2QVbKrtHNGS_0CI0pO_600x450.jpg",
+                        "https://images.craigslist.org/00f0f_le7EIK2mxNV_0CI0pO_600x450.jpg",
+                        "https://images.craigslist.org/00B0B_2KvAHaMuydU_0CI0pO_600x450.jpg",
+                        "https://images.craigslist.org/00L0L_eWJK52u50Yr_0CI0pO_600x450.jpg"
+                    ],
+                    "name": "Trek Domane 2.0 Endurance Road Bike (54cm)",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "Alameda",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7351012258579,
+                                "longitude": -122.243105560014
+                            }
+                        },
+                        "price": "750.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "37"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00s0s_4ZN2k8jFyZl_1320MM_600x450.jpg",
+                        "https://images.craigslist.org/00z0z_b2tQJqtwpte_1320MM_600x450.jpg",
+                        "https://images.craigslist.org/00909_1H2jW8X6tUU_1320MM_600x450.jpg",
+                        "https://images.craigslist.org/00t0t_3M7cHxFQr3D_1320MM_600x450.jpg"
+                    ],
+                    "name": "2023 BMC Roadmachine FIVE road bike",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7771001781544,
+                                "longitude": -122.407822331738
+                            }
+                        },
+                        "price": "2999.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "38"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00E0E_h17RLdVjDXK_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00Q0Q_dLM91hVdri4_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/01414_iVTGzeIall9_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/01212_bkDRoeCskEC_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00J0J_lxfV5bSH21m_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00W0W_1vZEF0PEwfU_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00T0T_4f91Q2pnjq9_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/01515_2fsWzv852Ss_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00y0y_5xjGeMcXYSO_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00y0y_3AgCWpqyMLp_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00I0I_7ms6oVlIDCD_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00101_1PbOhY8f7W2_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00w0w_kq1Y8XigKuq_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00m0m_iDmmSmeDYK_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00k0k_kcVWJ5AfGYn_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00r0r_3HgZjxhwSCP_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00o0o_SmKl3ilRvD_0t20CI_600x450.jpg",
+                        "https://images.craigslist.org/00e0e_eazhCunA9NO_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00j0j_1PHcc3tAnSZ_0t20CI_600x450.jpg"
+                    ],
+                    "name": "Bruce Gordon? Michael Johnson?",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7621012889942,
+                                "longitude": -122.397099426603
+                            }
+                        },
+                        "price": "1299.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "39"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/01616_52p24yU7vLR_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00d0d_2E8qtUBSn7H_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00Y0Y_g7jLZoCTQR5_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00W0W_949N71xzCBj_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00909_bFCh2ypaSZ4_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00U0U_6Fw3YtnbF1K_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00u0u_91dPKmnFrh_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00F0F_hgS53lvZIOU_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00X0X_hwMWjZ7cSpn_0CI0t2_600x450.jpg",
+                        "https://images.craigslist.org/00303_6LjV5jJbQcc_0CI0t2_600x450.jpg"
+                    ],
+                    "name": "Vintage 1983 Oschner Steel Lugged Road Bike 54cm",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "Greenbrae",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.9478994698315,
+                                "longitude": -122.536298377007
+                            }
+                        },
+                        "price": "650.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "40"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00404_8C2UlZNjlZj_0CI0lM_600x450.jpg",
+                        "https://images.craigslist.org/00h0h_bh9feusAIZ1_0CI0lM_600x450.jpg"
+                    ],
+                    "name": "54cm Trek Y - Foil 18spd fits 5'7.5 - 5'10\"",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7267583874035,
+                                "longitude": -122.441577567278
+                            }
+                        },
+                        "price": "1100.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "41"
+            },
+            {
+                "@type": "ListItem",
+                "item": {
+                    "@context": "http://schema.org",
+                    "@type": "Product",
+                    "description": "",
+                    "image": [
+                        "https://images.craigslist.org/00W0W_FkfKg9sb3d_1u8176_600x450.jpg",
+                        "https://images.craigslist.org/00D0D_8tCqxpozCVL_1u8176_600x450.jpg",
+                        "https://images.craigslist.org/00n0n_am3gIXFBVlu_0MM132_600x450.jpg",
+                        "https://images.craigslist.org/00J0J_dJn6yblga3k_1u8176_600x450.jpg",
+                        "https://images.craigslist.org/00l0l_hkDvJaDYPdE_1u8176_600x450.jpg",
+                        "https://images.craigslist.org/00M0M_dqOSCnQQH6g_1761u8_600x450.jpg",
+                        "https://images.craigslist.org/00l0l_fQ7KyYbIWz3_1u8176_600x450.jpg",
+                        "https://images.craigslist.org/00Z0Z_41GpvpRThDE_1761u8_600x450.jpg",
+                        "https://images.craigslist.org/00N0N_gFM26z35sUQ_1u8176_600x450.jpg",
+                        "https://images.craigslist.org/01111_anXVLYI5olr_1320MM_600x450.jpg"
+                    ],
+                    "name": "Brilliant Commuter Bike - Fuji SL 3.0 Tiagra",
+                    "offers": {
+                        "@type": "Offer",
+                        "availableAtOrFrom": {
+                            "@type": "Place",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "",
+                                "addressLocality": "San Francisco",
+                                "addressRegion": "CA",
+                                "postalCode": "",
+                                "streetAddress": ""
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 37.7844220058179,
+                                "longitude": -122.473119466856
+                            }
+                        },
+                        "price": "450.00",
+                        "priceCurrency": "USD"
+                    }
+                },
+                "position": "42"
+            }
+        ]
+    }
+]

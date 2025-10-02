@@ -41,3 +41,4 @@ The bot is deployed as a Google Cloud Function that runs on a scheduled basis (e
 
 ## Future Considerations
 
+- I would like to add a multi-threaded appraoch to increase efficiency. At the moment though, this isn't run often enough and doesn't deal with enough volume to justify the extra requirements necessary.

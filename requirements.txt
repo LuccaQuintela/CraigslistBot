@@ -47,6 +47,8 @@ defusedxml==0.7.1
     # via scrapy
 distro==1.9.0
     # via openai
+dotenv==0.9.9
+    # via craigslistbot (pyproject.toml)
 filelock==3.19.1
     # via tldextract
 frozenlist==1.7.0
@@ -125,6 +127,8 @@ pyjwt==2.10.1
     # via twilio
 pyopenssl==25.3.0
     # via scrapy
+python-dotenv==1.1.1
+    # via dotenv
 queuelib==1.8.0
     # via scrapy
 requests==2.32.5

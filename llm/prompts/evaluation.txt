@@ -1,0 +1,9 @@
+Search: {search_query}
+Details: 
+{search_details}
+
+Below are {length} listings to evaluate:
+
+{formatted_listings}
+
+Please return a JSON array of scores (integers 1–5), in the same order as the listings were provided.

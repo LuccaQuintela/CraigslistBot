@@ -129,6 +129,8 @@ pyopenssl==25.3.0
     # via scrapy
 python-dotenv==1.1.1
     # via dotenv
+pyyaml==6.0.3
+    # via craigslistbot (pyproject.toml)
 queuelib==1.8.0
     # via scrapy
 requests==2.32.5

@@ -3,6 +3,7 @@ import scrapy
 import time
 from scraper.scraper.items import ListingItem
 from utilities.config import Config
+from utilities.logger import Logger
 
 class CraigslistSpider(scrapy.Spider):
     name = "craigslist"
@@ -10,8 +11,9 @@ class CraigslistSpider(scrapy.Spider):
         "https://sfbay.craigslist.org/search/bia?postal=94105&query=54cm%20frame%20road%20bike&search_distance=15&sort=date"
     ]
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, llm_client, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.llm_client = llm_client
 
     def parse(self, response):
         """
@@ -27,9 +29,13 @@ class CraigslistSpider(scrapy.Spider):
         Yields:
             scrapy.Request: Request objects to follow each individual listing URL.
         """
+        Logger.log("Parsing search results page", component="SPIDER", context={"url": response.url})
         for list_item in response.css("li.cl-static-search-result")[:Config.get('listing_count_limit')]:
 
             link = list_item.css("a::attr(href)").get()
+            if not link:
+                Logger.warning("Search result missing href", component="SPIDER")
+                continue
             yield response.follow(
                 link, 
                 callback=self.parse_detail_page,
@@ -57,6 +63,7 @@ class CraigslistSpider(scrapy.Spider):
                 - content (str): The main description text of the listing
                 - url (str): The original listing URL
         """
+        Logger.log("Parsing detail page", component="SPIDER", context={"url": response.meta.get('listing_url', response.url)})
         item = ListingItem()
         item["title"] = "Title Not Found"
         item["content"] = "Content Not Found"
@@ -75,7 +82,7 @@ class CraigslistSpider(scrapy.Spider):
                 item["content"] = posting_data.get("description", "Content Not Found")
                 item["price"] = posting_data.get("offers", {}).get("price", "Price Not Found")
             except (json.JSONDecodeError, AttributeError) as e:
-                self.logger.warning(f"Failed to parse JSON-LD data: {e}")
+                Logger.warning(f"Failed to parse JSON-LD data: {e}", component="SPIDER")
                 item["title"] = self._extract_title_from_css(response)
                 item["content"] = self._extract_content_from_css(response)
         else:
@@ -94,7 +101,7 @@ class CraigslistSpider(scrapy.Spider):
             title_element = response.css('h1.postingtitle span#titletextonly::text').get()
             return title_element.strip() if title_element else "Title Not Found"
         except Exception as e:
-            self.logger.warning(f"Failed to extract title from CSS: {e}")
+            Logger.warning(f"Failed to extract title from CSS: {e}", component="SPIDER")
             return "Title Not Found"
     
     def _extract_content_from_css(self, response):
@@ -106,7 +113,7 @@ class CraigslistSpider(scrapy.Spider):
                 return content.strip() if content else "Content Not Found"
             return "Content Not Found"
         except Exception as e:
-            self.logger.warning(f"Failed to extract content from CSS: {e}")
+            Logger.warning(f"Failed to extract content from CSS: {e}", component="SPIDER")
             return "Content Not Found"
     
     def _extract_post_id(self, response):
@@ -114,25 +121,25 @@ class CraigslistSpider(scrapy.Spider):
         try:
             post_id_text = response.css('div.postinginfos p.postinginfo::text').get()
             if not post_id_text:
-                self.logger.warning("Post ID element not found")
+                Logger.warning("Post ID element not found", component="SPIDER")
                 return None
             
             colon_index = post_id_text.find(':')
             if colon_index == -1:
-                self.logger.warning(f"Post ID format unexpected: {post_id_text}")
+                Logger.warning(f"Post ID format unexpected: {post_id_text}", component="SPIDER")
                 return None
             
             id_part = post_id_text[colon_index + 2:].strip()
             if not id_part:
-                self.logger.warning("Post ID is empty after parsing")
+                Logger.warning("Post ID is empty after parsing", component="SPIDER")
                 return None
             
             return int(id_part)
         except ValueError as e:
-            self.logger.warning(f"Failed to convert post ID to integer: {e}")
+            Logger.warning(f"Failed to convert post ID to integer: {e}", component="SPIDER")
             return None
         except Exception as e:
-            self.logger.warning(f"Unexpected error extracting post ID: {e}")
+            Logger.warning(f"Unexpected error extracting post ID: {e}", component="SPIDER")
             return None
     
     def _extract_updated_timestamp(self, response):
@@ -144,13 +151,13 @@ class CraigslistSpider(scrapy.Spider):
             elif len(timestamp_elements) == 1:
                 return timestamp_elements[0]
             else:
-                self.logger.warning("No timestamp elements found")
+                Logger.warning("No timestamp elements found", component="SPIDER")
                 return None
         except IndexError:
-            self.logger.warning("Index error accessing timestamp elements")
+            Logger.warning("Index error accessing timestamp elements", component="SPIDER")
             return None
         except Exception as e:
-            self.logger.warning(f"Unexpected error extracting timestamp: {e}")
+            Logger.warning(f"Unexpected error extracting timestamp: {e}", component="SPIDER")
             return None
         
     def _extract_attributes(self, response):

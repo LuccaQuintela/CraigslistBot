@@ -1,6 +1,7 @@
 from twilio.rest import Client
 from dotenv import load_dotenv
 import os
+from utilities.logger import Logger
 
 class MessageClient:
     _instance = None
@@ -18,14 +19,20 @@ class MessageClient:
             self.from_number = "whatsapp:+14155238886"
             self.to_number ='whatsapp:+16503363559'
             MessageClient._initialized = True
+            Logger.log("MessageClient initialized", component="MESSAGE")
 
     def send_message(self, msg: str):
-        message = self.client.messages.create(
-            body = msg,
-            from_=self.from_number,
-            to=self.to_number,
-        )
-        return message.sid
+        try:
+            message = self.client.messages.create(
+                body = msg,
+                from_=self.from_number,
+                to=self.to_number,
+            )
+            Logger.log("Message sent", component="MESSAGE", context={"sid": message.sid})
+            return message.sid
+        except Exception as e:
+            Logger.error(f"Failed to send message: {e}", component="MESSAGE")
+            raise
     
     @staticmethod
     def send(msg: str):

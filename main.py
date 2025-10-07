@@ -1,28 +1,9 @@
 from dotenv import load_dotenv
 from llm import ListingEvaluatorLLMClient
+from engine.engine import Engine
 import os
-from scrapy.crawler import CrawlerProcess
-from scrapy.utils.project import get_project_settings
-from scraper.scraper.spiders.craigslistspider import CraigslistSpider
 
 load_dotenv()
-
-def run_spider():
-    os.environ.setdefault('SCRAPY_SETTINGS_MODULE', 'scraper.scraper.settings')
-    settings = get_project_settings()
-    settings.update({
-        "FEEDS": {
-            "test.json": {
-                "format": "json",
-                "overwrite": True,
-            }
-        }
-    })
-
-    process = CrawlerProcess(settings)
-    process.crawl(CraigslistSpider)
-    process.start()
-
 
 def main():
     # client = ListingEvaluatorLLMClient()
@@ -38,8 +19,8 @@ def main():
     # evaluated = client.evaluate_listings(listings)
 
     # print(evaluated)
-
-    run_spider()
+    engine = Engine()
+    engine.run()
 
 if __name__ == "__main__":
     main()

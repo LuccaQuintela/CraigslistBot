@@ -1,10 +1,11 @@
 import os
 import yaml
 import json
-from typing import List, Dict, Any, Optional, Union
+from typing import List, Dict, Any, Optional, Callable
 from pathlib import Path
 from openai import OpenAI
 from utilities.config import Config
+from utilities.logger import Logger
 
 class LLMClient:
     """
@@ -32,6 +33,7 @@ class LLMClient:
         self.client = OpenAI(api_key=self.api_key, **kwargs)
         self.system_prompt = ""
         self.conversation_history: List[Dict[str, str]] = []
+        Logger.log("LLMClient initialized", component="LLM", context={"model": self.model})
         
     def _set_system_prompt(self, prompt: str) -> None:
         """Set the system prompt for the conversation."""
@@ -56,6 +58,7 @@ class LLMClient:
 
         system = self._read_from_file(file_path)
         self._set_system_prompt(system)
+        Logger.log("System prompt loaded", component="LLM", context={"path": str(file_path)})
     
     def _add_message(self, role: str, content: str) -> None:
         """Add a message to the conversation history."""
@@ -98,6 +101,7 @@ class LLMClient:
         max_tokens = max_tokens or Config.get('max_tokens')
 
         try:
+            Logger.log("Sending chat completion request", component="LLM", context={"temperature": temperature, "max_tokens": max_tokens})
             response = self.client.chat.completions.create(
                 model=self.model,
                 messages=messages,
@@ -108,9 +112,11 @@ class LLMClient:
             
             response_content = response.choices[0].message.content
             self._add_message("assistant", response_content)
+            Logger.log("Received chat completion response", component="LLM")
             return response_content
             
         except Exception as e:
+            Logger.error(f"OpenAI API error: {str(e)}", component="LLM")
             raise RuntimeError(f"Error calling OpenAI API: {str(e)}")
 
 class ListingEvaluatorLLMClient(LLMClient):
@@ -121,7 +127,8 @@ class ListingEvaluatorLLMClient(LLMClient):
     
     def __init__(self, 
                  api_key: Optional[str] = None, 
-                 model: str = "gpt-3.5-turbo", 
+                 model: Optional[str] = None,
+                 pipeline_out: Callable = None, 
                  **kwargs):
         """
         Initialize the Listing Evaluator LLM Client.
@@ -133,6 +140,7 @@ class ListingEvaluatorLLMClient(LLMClient):
         """
         super().__init__(api_key, model, **kwargs)
         self._load_system_prompt_from_file()
+        self.pipeline_out = pipeline_out
     
     def evaluate_listings(self, listings: List[Dict[str, Any]]) -> List[tuple]:
         """
@@ -154,14 +162,19 @@ class ListingEvaluatorLLMClient(LLMClient):
             length = len(listings),
             formatted_listings = formatted_listings,
         )
+        Logger.log("Dispatching evaluation to LLM", component="LLM", context={"num_listings": len(listings)})
         response = self.send_message(evaluation_prompt)
-        self.clear_history
+        self.clear_history()
 
         try:
             scores = json.loads(response)
             results = [(score, listing["url"]) for score, listing in zip(scores, listings)]
+            if self.pipeline_out:
+                self.pipeline_out(results)
+            Logger.log("Parsed LLM evaluation results", component="LLM", context={"count": len(results)})
             return results
         except json.JSONDecodeError as e:
+            Logger.error(f"Failed to parse LLM evaluation JSON: {e}", component="LLM", context={"response_sample": response[:200] if isinstance(response, str) else None})
             raise RuntimeError(f"Couldn't load LLM evaluation scores into list with JSON: {e}\nresponse: {response}")
     
     def _format_listing(self, listing_data: Dict[str, Any]) -> str:

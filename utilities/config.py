@@ -1,5 +1,6 @@
 import yaml
 from pathlib import Path
+from utilities.logger import Logger
 
 class Config:
     _instance = None
@@ -14,6 +15,7 @@ class Config:
         if not self._initialized:
             self._load(path)
             Config._initialized = True
+            Logger.log("Configuration loaded", component="CONFIG", context={"path": str(path) if path else "default"})
 
     def _load(self, file_path):
         if file_path is None:
@@ -22,10 +24,13 @@ class Config:
             with open(file_path, "r") as f:
                 self.data = yaml.safe_load(f)
         except FileNotFoundError:
+            Logger.error(f"Project configuration file not found: {file_path}", component="CONFIG")
             raise FileNotFoundError(f"Project configuration file not found: {file_path}")
 
     def get_value(self, key, default=None):
-        return self.data.get(key, default)
+        value = self.data.get(key, default)
+        Logger.log("Config get", component="CONFIG", context={"key": key, "has_value": value is not None})
+        return value
 
     @staticmethod
     def get(key, default=None):

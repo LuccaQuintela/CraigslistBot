@@ -3,6 +3,7 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from scraper.scraper.spiders.craigslistspider import CraigslistSpider
 from utilities.config import Config
+from utilities.logger import Logger
 from messager.message_client import MessageClient
 
 class Engine:
@@ -20,6 +21,7 @@ class Engine:
             self.buffer = []
 
     def _run_scraper(self):
+        Logger.log("Starting scraping process", component="ENGINE")
         settings = get_project_settings()
         settings.update({
             "FEEDS": {
@@ -35,9 +37,11 @@ class Engine:
         process.start()
 
     def run(self):
+        Logger.log("Starting entire engine process", component="ENGINE")
         self._run_scraper()
 
     def insert_to_buffer(self, list: List[tuple]):
+        Logger.log(f"Adding ranked results to engine buffer, size: {len(list)}", component="ENGINE")
         self.buffer.extend(list)
 
     def final_processing(self):
@@ -46,6 +50,6 @@ class Engine:
             if listing[0] >= Config.get('threshold'):
                 msg = f"{listing[1]}"
                 # MessageClient.send(msg)
-                print(msg)
+                Logger.log(f"Sending text for [{msg}] with score of [{listing[0]}]", component="ENGINE")
             else:
                 break

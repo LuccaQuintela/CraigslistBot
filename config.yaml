@@ -1,10 +1,10 @@
 # pipeline configuration
 batch_size: 10
-top_k: 3
+top_k: 7
 threshold: 3.5
 
 # scraper configuration
-listing_count_limit: 20
+listing_count_limit: 50
 
 # search parameters
 search_query: "54cm road bike"

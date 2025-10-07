@@ -4,6 +4,7 @@ import json
 from typing import List, Dict, Any, Optional, Union
 from pathlib import Path
 from openai import OpenAI
+from utilities.config import Config
 
 class LLMClient:
     """
@@ -23,12 +24,11 @@ class LLMClient:
             model: The model to use for completions
             **kwargs: Additional arguments to pass to OpenAI client
         """
-        self.CONFIG = self._load_config()
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
         if not self.api_key:
             raise ValueError("API key must be provided either as parameter or OPENAI_API_KEY environment variable")
         
-        self.model = model or self.CONFIG["model"]
+        self.model = model or Config.get('model')
         self.client = OpenAI(api_key=self.api_key, **kwargs)
         self.system_prompt = ""
         self.conversation_history: List[Dict[str, str]] = []
@@ -56,16 +56,6 @@ class LLMClient:
 
         system = self._read_from_file(file_path)
         self._set_system_prompt(system)
-
-    def _load_config(self, file_path: Optional[str] = None) -> Dict:
-        if file_path is None:
-            file_path = Path(__file__).parent.parent / "config.yaml"
-
-        try:
-            with open(file_path, "r") as f:
-                return yaml.safe_load(f)
-        except FileNotFoundError:
-            raise FileNotFoundError(f"Project configuration file not found: {file_path}")
     
     def _add_message(self, role: str, content: str) -> None:
         """Add a message to the conversation history."""
@@ -104,8 +94,8 @@ class LLMClient:
         
         messages.extend(self.conversation_history)
         
-        temperature = temperature or self.CONFIG["temperature"]
-        max_tokens = max_tokens or self.CONFIG["max_tokens"]
+        temperature = temperature or Config.get('temperature')
+        max_tokens = max_tokens or Config.get('max_tokens')
 
         try:
             response = self.client.chat.completions.create(
@@ -159,8 +149,8 @@ class ListingEvaluatorLLMClient(LLMClient):
 
         evaluation_prompt = self._read_from_file(
             file_path = file_path,
-            search_query = self.CONFIG["search_query"],
-            search_details = self.CONFIG["search_details"],
+            search_query = Config.get('search_query'),
+            search_details = Config.get('search_details'),
             length = len(listings),
             formatted_listings = formatted_listings,
         )

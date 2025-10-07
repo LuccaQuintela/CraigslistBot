@@ -1,11 +1,18 @@
-# llm configuration
+# pipeline configuration
 batch_size: 10
 top_k: 3
+threshold: 3.5
+
+# scraper configuration
+listing_count_limit: 20
 
 # search parameters
 search_query: "54cm road bike"
 search_details:
   - "components comparable to Shimano 105"
+  - "54cm frame size"
+range: "15 miles"
+zip_code: "94105"
 
 # model configuration
 model: "gpt-4.1-mini"

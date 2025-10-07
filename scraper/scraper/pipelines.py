@@ -6,8 +6,21 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
+from utilities.config import Config
 
+class LLMBufferPipeline:
+    def __init__(self):
+        self.batch_size = Config.get('batch_size')
+        self.buffer = []
 
-class ScraperPipeline:
     def process_item(self, item, spider):
+        self.buffer.append(item)
+
+        if len(self.buffer >= self.batch_size):
+            # send to async queue
+            batch = self.buffer.copy()
+            self.buffer.clear()
+            # send(batch)
+        
+        
         return item

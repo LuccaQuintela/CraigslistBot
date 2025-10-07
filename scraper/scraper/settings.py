@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "scraper"
+BOT_NAME = "craigslistbot"
 
-SPIDER_MODULES = ["scraper.spiders"]
-NEWSPIDER_MODULE = "scraper.spiders"
+SPIDER_MODULES = ["scraper.scraper.spiders"]
+NEWSPIDER_MODULE = "scraper.scraper.spiders"
 
 ADDONS = {}
 
@@ -19,12 +19,20 @@ ADDONS = {}
 #USER_AGENT = "scraper (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Concurrency and throttling settings
 #CONCURRENT_REQUESTS = 16
 CONCURRENT_REQUESTS_PER_DOMAIN = 1
-DOWNLOAD_DELAY = 1
+DOWNLOAD_DELAY = 1.5
+RANDOMIZE_DOWNLOAD_DELAY = True
+RETRY_ENABLED = True
+RETRY_TIMES = 3
+
+# Stop conditions
+CLOSESPIDER_ITEMCOUNT = 20
+CLOSESPIDER_TIMEOUT = 600
+CLOSESPIDER_TIMEOUT_NO_ITEM = 30
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
@@ -52,9 +60,9 @@ DOWNLOAD_DELAY = 1
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
-#    "scrapy.extensions.telnet.TelnetConsole": None,
-#}
+EXTENSIONS = {
+    'scrapy.extensions.closespider.CloseSpider': 500,
+}
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html

@@ -31,7 +31,7 @@ class Engine:
         settings = get_project_settings()
         settings.update({
             "FEEDS": {
-                "json/scraped.json": {
+                "logs/scraped.json": {
                     "format": "json",
                     "overwrite": True,
                 }
@@ -56,6 +56,7 @@ class Engine:
 
     def _final_processing(self):
         self.buffer.sort(key=lambda x: x[0], reverse=True)
+        Logger.log(f"Buffer sorted: {self.buffer}", component="ENGINE")
         for listing in self.buffer[:Config.get('top_k')]:
             if listing[0] >= Config.get('threshold'):
                 msg = f"{listing[1]}"

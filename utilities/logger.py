@@ -1,8 +1,23 @@
 from datetime import datetime
 from typing import Optional
 import json
+import os
 
 class Logger:
+    _log_file = "logs/logs.json"
+    _initialized = False
+    
+    @staticmethod
+    def initialize():
+        """Initialize the logger by clearing the log file for a fresh start"""
+        os.makedirs(os.path.dirname(Logger._log_file), exist_ok=True)
+        
+        with open(Logger._log_file, 'w') as f:
+            f.write('')
+        
+        Logger._initialized = True
+        Logger.log("Logger initialized - log file cleared", component="LOGGER")
+
     @staticmethod
     def format(msg: str, **kwargs):
         return json.dumps({
@@ -20,7 +35,14 @@ class Logger:
             context=context,
             timestamp=timestamp,
         )
+        
+        if not Logger._initialized:
+            Logger.initialize()
+        
         print(to_log)
+        
+        with open(Logger._log_file, 'a') as f:
+            f.write(to_log + '\n')
 
     @staticmethod
     def warning(msg: str, component: Optional[str] = None, context: Optional[dict] = None):

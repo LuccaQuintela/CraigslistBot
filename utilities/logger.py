@@ -12,8 +12,9 @@ class Logger:
         """Initialize the logger by clearing the log file for a fresh start"""
         os.makedirs(os.path.dirname(Logger._log_file), exist_ok=True)
         
+        # Initialize with empty JSON array
         with open(Logger._log_file, 'w') as f:
-            f.write('')
+            f.write('[]')
         
         Logger._initialized = True
         Logger.log("Logger initialized - log file cleared", component="LOGGER")
@@ -28,21 +29,30 @@ class Logger:
     @staticmethod
     def log(msg: str, severity: str = "INFO", component: Optional[str] = None, context: Optional[dict] = None):
         timestamp = datetime.now().isoformat()
-        to_log = Logger.format(
+        log_entry = json.loads(Logger.format(
             msg,
             severity=severity,
             component=component,
             context=context,
             timestamp=timestamp,
-        )
+        ))
         
         if not Logger._initialized:
             Logger.initialize()
         
-        print(to_log)
+        print(json.dumps(log_entry))
         
-        with open(Logger._log_file, 'a') as f:
-            f.write(to_log + '\n')
+        # Read existing logs, append new entry, write back as JSON array
+        try:
+            with open(Logger._log_file, 'r') as f:
+                logs = json.load(f)
+        except (json.JSONDecodeError, FileNotFoundError):
+            logs = []
+        
+        logs.append(log_entry)
+        
+        with open(Logger._log_file, 'w') as f:
+            json.dump(logs, f, indent=2)
 
     @staticmethod
     def warning(msg: str, component: Optional[str] = None, context: Optional[dict] = None):

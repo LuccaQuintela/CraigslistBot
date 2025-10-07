@@ -6,7 +6,11 @@
 import scrapy
 
 
-class ScraperItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class ListingItem(scrapy.Item):
+    title = scrapy.Field()
+    price = scrapy.Field()
+    post_id = scrapy.Field()
+    attribute_group = scrapy.Field()
+    updated_at = scrapy.Field()
+    content = scrapy.Field()
+    url = scrapy.Field()
